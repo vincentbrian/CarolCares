@@ -377,16 +377,23 @@ a {
 
 }
 
+@media screen and (max-width: 985px) {
+
+.land-text {
+  width: 50%;
+}
 
 
 
 
 
+}
+@media screen and (max-width: 691px) {
 
-
-
-
-
+.land-text {
+    top: 95px;
+  }
+}
 
 @media screen and (max-width: 600px) {
 .navbar-container {
