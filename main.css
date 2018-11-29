@@ -73,7 +73,9 @@ a {
   margin: 0 auto;
   margin-bottom: 50px;
 }
-.section {
+.section-about {
+  display: flex;
+  margin: 20px auto;
 
 }
 
@@ -209,6 +211,16 @@ a {
 .col-half {
   width: 50%;
 }
+
+  /* <----------------------------  about page  -------------------------------> */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
 .about-section {
   display: flex;
   justify-content: space-evenly;
@@ -219,11 +231,11 @@ a {
 .about-image {
   padding:10px;
   display: flex;
-  justify-content: center;
+  justify-content: ;
 }
 .about-image img {
   height: 100%;
-  width: 50%;
+  width: 100%;
   border: 1px dotted white;
 
 
@@ -404,7 +416,7 @@ only screen and (min-width:321px) and (max-width:768px)
 only screen and (min-width:769px)*/
 /* <-------------------------------    END: size key   ---------------------------> */
 
-@media screen and (max-width: 985px) {
+@media screen and (min-width: 985px) {
 
 .land-text {
   width: 50%;
@@ -415,14 +427,14 @@ only screen and (min-width:769px)*/
 
 
 }
-@media screen and (max-width: 691px) {
+@media screen and (min-width: 691px) {
 
 .land-text {
     top: 95px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
 p {
   font-size: 25px;
 }
