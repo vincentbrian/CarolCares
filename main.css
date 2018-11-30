@@ -427,14 +427,14 @@ only screen and (min-width:769px)*/
 
 
 }
-@media screen and (max-width: 691px) {
+@media screen and (max-width: 891px) {
 
 .land-text {
     top: 95px;
   }
 }
 
-@media screen and (max-width: 691px) {
+@media screen and (max-width: 791px) {
 p {
   font-size: 25px;
 }
