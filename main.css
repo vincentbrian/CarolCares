@@ -434,7 +434,7 @@ only screen and (min-width:769px)*/
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 691px) {
 p {
   font-size: 25px;
 }
