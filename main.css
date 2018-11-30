@@ -445,10 +445,24 @@ p {
   justify-content: space-between;
 
 }
+.landing-text {
+    color: var( --main-blue);
+    font-size: 30px;
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    /* margin: 0px; */
+    padding: 10px;
+    align-items: center;
+}
 
 .navbar-logo img {
   padding: 10px;
-  height: 100px;
+  height: 60px;
 }
 .navbar-links {
   display: flex;
@@ -481,7 +495,7 @@ p {
 }
 .hamburger  img {
   padding: 10px;
-  width: 80px;
+  width: 40px;
   height: 100%;
 
   cursor: pointer;
@@ -490,7 +504,7 @@ p {
   display: none;
 }
 .cover-image {
-  /* max-height: 500px; */
+  max-height: 500px;
 }
 .cover-image img {
   width: 100%;
