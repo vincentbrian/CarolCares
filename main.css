@@ -448,7 +448,7 @@ p {
 
 .navbar-logo img {
   padding: 10px;
-  height: 40px;
+  height: 100px;
 }
 .navbar-links {
   display: flex;
@@ -481,7 +481,7 @@ p {
 }
 .hamburger  img {
   padding: 10px;
-  width: 40px;
+  width: 80px;
   height: 100%;
 
   cursor: pointer;
