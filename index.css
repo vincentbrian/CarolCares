@@ -464,6 +464,9 @@ p {
     padding: 10px;
     align-items: center; */
 }
+.landing-text h3 {
+  margin: 25px;
+}
 
 .navbar-logo img {
   padding: 10px;
@@ -486,6 +489,15 @@ p {
 .navbar-links h2 {
   font-size: 40px;
   padding: 20px;
+}
+
+.number {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.number h1 {
+  font-size: 50px;
 
 }
 /* .hamburger {
