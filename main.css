@@ -434,13 +434,13 @@ only screen and (min-width:769px)*/
   }
 }
 
-@media screen and (max-width: 791px) {
+@media screen and (min-width: 791px) {
 p {
   font-size: 25px;
 }
-.landing-page {
+/* .landing-page {
   height: 80px;
-}
+} */
 .navbar-container {
   display: flex;
   align-items: center;
